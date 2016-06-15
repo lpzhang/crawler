@@ -1,0 +1,66 @@
+### candidate file ::: gt dir
+### eachline contains candidate file and gt files(dirs)
+
+/home/lpzhang/Desktop/crawler/ImageNet/snow_ski/gettyimages_snow_ski.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+#/home/lpzhang/Desktop/crawler/ImageNet/horizontal_bar/gettyimages_horizontal_bar.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/stretcher/gettyimages_stretcher.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/flowerpot/gettyimages_flowerpot.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/lamp/gettyimages_lamp.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+#/home/lpzhang/Desktop/crawler/ImageNet/filing_cabinet/gettyimages_filing_cabinet.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+#/home/lpzhang/Desktop/crawler/ImageNet/head_cabbage/gettyimages_head_cabbage.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/backpack/gettyimages_backpack.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+#/home/lpzhang/Desktop/crawler/ImageNet/ladle/gettyimages_ladle.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/bookshelf/gettyimages_bookshelf.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/park_bench/gettyimages_park_bench.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+#/home/lpzhang/Desktop/crawler/ImageNet/spatula/gettyimages_spatula.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+#/home/lpzhang/Desktop/crawler/ImageNet/microphone/gettyimages_microphone.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+#/home/lpzhang/Desktop/crawler/ImageNet/screwdriver/gettyimages_screwdriver.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/plastic_bag/gettyimages_plastic_bag.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/binder/gettyimages_binder.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/purse/gettyimages_purse.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/hockey_pucks/gettyimages_hockey_pucks.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+#/home/lpzhang/Desktop/crawler/ImageNet/axe/gettyimages_axe.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/swimming_trunks/gettyimages_swimming_trunks.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/banana/gettyimages_banana.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/dumbbell/gettyimages_dumbbell.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+#/home/lpzhang/Desktop/crawler/ImageNet/chainsaw/gettyimages_chainsaw.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/miniskirts/gettyimages_miniskirts.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+#/home/lpzhang/Desktop/crawler/ImageNet/face_powder/gettyimages_face_powder.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/stoves/gettyimages_stoves.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+#/home/lpzhang/Desktop/crawler/ImageNet/trombone/gettyimages_trombone.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+#/home/lpzhang/Desktop/crawler/ImageNet/bow_arrow/gettyimages_bow_arrow.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/bow_ties/gettyimages_bow_ties.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+#/home/lpzhang/Desktop/crawler/ImageNet/jellyfish/gettyimages_jellyfish.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+#/home/lpzhang/Desktop/crawler/ImageNet/flute_instrument/gettyimages_flute_instrument.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/
+
+/home/lpzhang/Desktop/crawler/ImageNet/frying_pan/gettyimages_frying_pan.txt_ITSELF_keep_0.6_TRAIN_keep_0.6  /home/lpzhang/Desktop/ImageNetData/ImageNet/ILSVRC2015/ILSVRC2015_DET_test/

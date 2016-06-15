@@ -1,0 +1,122 @@
+#### candidate files
+#### eachline contain same object candidate files
+#
+#### ['rubber_eraser', 'pencil_eraser', 'erasers'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/rubber_eraser/gettyimages_rubber_eraser.txt /home/lpzhang/Desktop/crawler/ImageNet/pencil_eraser/gettyimages_pencil_eraser.txt /home/lpzhang/Desktop/crawler/ImageNet/erasers/gettyimages_erasers.txt /home/lpzhang/Desktop/crawler/ImageNet/rubber_eraser/flickr_rubber_eraser.txt /home/lpzhang/Desktop/crawler/ImageNet/pencil_eraser/flickr_pencil_eraser.txt /home/lpzhang/Desktop/crawler/ImageNet/erasers/flickr_erasers.txt /home/lpzhang/Desktop/crawler/ImageNet/pencil_eraser/istockphoto_pencil_eraser.txt /home/lpzhang/Desktop/crawler/ImageNet/rubber_eraser/dreamstime_rubber_eraser.txt /home/lpzhang/Desktop/crawler/ImageNet/pencil_eraser/dreamstime_pencil_eraser.txt /home/lpzhang/Desktop/crawler/ImageNet/erasers/dreamstime_erasers.txt
+##total number 32508
+/home/lpzhang/Desktop/crawler/ImageNet/rubber_eraser/gettyimages_rubber_eraser.txt_ITSELF_keep_0.8  n04116512
+#
+#### ['horizontal_bar', 'horizontalbar', 'pull_up_bar', 'pullupbar', 'high_bar'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/horizontal_bar/gettyimages_horizontal_bar.txt /home/lpzhang/Desktop/crawler/ImageNet/horizontal_bar/istockphoto_horizontal_bar.txt /home/lpzhang/Desktop/crawler/ImageNet/horizontalbar/flickr_horizontalbar.txt /home/lpzhang/Desktop/crawler/ImageNet/pull_up_bar/dreamstime_pull_up_bar.txt /home/lpzhang/Desktop/crawler/ImageNet/pull_up_bar/gettyimages_pull_up_bar.txt /home/lpzhang/Desktop/crawler/ImageNet/pull_up_bar/istockphoto_pull_up_bar.txt /home/lpzhang/Desktop/crawler/ImageNet/pullupbar/flickr_pullupbar.txt /home/lpzhang/Desktop/crawler/ImageNet/high_bar/istockphoto_high_bar.txt /home/lpzhang/Desktop/crawler/ImageNet/high_bar/gettyimages_high_bar.txt
+##total number 14617
+#/home/lpzhang/Desktop/crawler/ImageNet/horizontal_bar/gettyimages_horizontal_bar.txt_ITSELF_keep_0.7  n03535780
+#
+#### ['dish_rack', 'dishrack', 'platerack', 'plate-rack', 'dish_shelf', 'dishwasher', 'dish_washing_machine', 'dishes_drying_up', 'dish_drainer', 'plate_drainer', 'dishdrainer'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/dish_rack/dreamstime_dish_rack.txt /home/lpzhang/Desktop/crawler/ImageNet/dish_rack/gettyimages_dish_rack.txt /home/lpzhang/Desktop/crawler/ImageNet/dish_rack/istockphoto_dish_rack.txt /home/lpzhang/Desktop/crawler/ImageNet/dishrack/flickr_dishrack.txt /home/lpzhang/Desktop/crawler/ImageNet/platerack/flickr_platerack.txt /home/lpzhang/Desktop/crawler/ImageNet/plate-rack/flickr_plate-rack.txt /home/lpzhang/Desktop/crawler/ImageNet/dish_shelf/istockphoto_dish_shelf.txt /home/lpzhang/Desktop/crawler/ImageNet/dish_shelf/gettyimages_dish_shelf.txt /home/lpzhang/Desktop/crawler/ImageNet/dishwasher/flickr_dishwasher.txt /home/lpzhang/Desktop/crawler/ImageNet/dishwasher/istockphoto_dishwasher.txt /home/lpzhang/Desktop/crawler/ImageNet/dishwasher/gettyimages_dishwasher.txt /home/lpzhang/Desktop/crawler/ImageNet/dishwasher/dreamstime_dishwasher.txt /home/lpzhang/Desktop/crawler/ImageNet/dish_washing_machine/istockphoto_dish_washing_machine.txt /home/lpzhang/Desktop/crawler/ImageNet/dish_washing_machine/dreamstime_dish_washing_machine.txt /home/lpzhang/Desktop/crawler/ImageNet/dishes_drying_up/dreamstime_dishes_drying_up.txt /home/lpzhang/Desktop/crawler/ImageNet/dish_drainer/gettyimages_dish_drainer.txt /home/lpzhang/Desktop/crawler/ImageNet/dish_drainer/dreamstime_dish_drainer.txt /home/lpzhang/Desktop/crawler/ImageNet/plate_drainer/dreamstime_plate_drainer.txt /home/lpzhang/Desktop/crawler/ImageNet/dishdrainer/flickr_dishdrainer.txt
+##total number 16264
+#/home/lpzhang/Desktop/crawler/ImageNet/dish_rack/dreamstime_dish_rack.txt_ITSELF_keep_0.75  n03961711
+#
+#### ['filing_cabinet', 'file_cabinet', 'file_cabinets'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/filing_cabinet/gettyimages_filing_cabinet.txt /home/lpzhang/Desktop/crawler/ImageNet/filing_cabinet/flickr_filing_cabinet.txt /home/lpzhang/Desktop/crawler/ImageNet/file_cabinet/istockphoto_file_cabinet.txt /home/lpzhang/Desktop/crawler/ImageNet/file_cabinet/gettyimages_file_cabinet.txt /home/lpzhang/Desktop/crawler/ImageNet/file_cabinets/dreamstime_file_cabinets.txt
+##total number 13286
+#/home/lpzhang/Desktop/crawler/ImageNet/filing_cabinet/gettyimages_filing_cabinet.txt_ITSELF_keep_0.7  n03337140
+#
+#### ['head_cabbage', 'head_cabbage_plant', 'brassica_oleracea_capitata'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/head_cabbage/gettyimages_head_cabbage.txt /home/lpzhang/Desktop/crawler/ImageNet/head_cabbage_plant/gettyimages_head_cabbage_plant.txt /home/lpzhang/Desktop/crawler/ImageNet/brassica_oleracea_capitata/gettyimages_brassica_oleracea_capitata.txt /home/lpzhang/Desktop/crawler/ImageNet/head_cabbage_plant/flickr_head_cabbage_plant.txt /home/lpzhang/Desktop/crawler/ImageNet/brassica_oleracea_capitata/flickr_brassica_oleracea_capitata.txt /home/lpzhang/Desktop/crawler/ImageNet/brassica_oleracea_capitata/istockphoto_brassica_oleracea_capitata.txt /home/lpzhang/Desktop/crawler/ImageNet/head_cabbage/dreamstime_head_cabbage.txt /home/lpzhang/Desktop/crawler/ImageNet/head_cabbage_plant/dreamstime_head_cabbage_plant.txt /home/lpzhang/Desktop/crawler/ImageNet/brassica_oleracea_capitata/dreamstime_brassica_oleracea_capitata.txt
+##total number 31034
+#/home/lpzhang/Desktop/crawler/ImageNet/head_cabbage/gettyimages_head_cabbage.txt_ITSELF_keep_0.7  n07714571
+#
+#### ['ladle', 'soup_ladle'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/ladle/gettyimages_ladle.txt /home/lpzhang/Desktop/crawler/ImageNet/ladle/flickr_ladle.txt /home/lpzhang/Desktop/crawler/ImageNet/ladle/istockphoto_ladle.txt /home/lpzhang/Desktop/crawler/ImageNet/soup_ladle/dreamstime_soup_ladle.txt /home/lpzhang/Desktop/crawler/ImageNet/soup_ladle/gettyimages_soup_ladle.txt /home/lpzhang/Desktop/crawler/ImageNet/soup_ladle/istockphoto_soup_ladle.txt
+##total number 12136
+#/home/lpzhang/Desktop/crawler/ImageNet/ladle/gettyimages_ladle.txt_ITSELF_keep_0.85  n03633091
+#
+#### ['park_bench', 'church_bench'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/park_bench/gettyimages_park_bench.txt /home/lpzhang/Desktop/crawler/ImageNet/church_bench/gettyimages_church_bench.txt
+##total number 12984
+#/home/lpzhang/Desktop/crawler/ImageNet/park_bench/gettyimages_park_bench.txt_ITSELF_keep_0.6  n02828884  n03891251
+#
+#### ['spatula'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/spatula/gettyimages_spatula.txt /home/lpzhang/Desktop/crawler/ImageNet/spatula/istockphoto_spatula.txt /home/lpzhang/Desktop/crawler/ImageNet/spatula/flickr_spatula.txt /home/lpzhang/Desktop/crawler/ImageNet/spatula/dreamstime_spatula.txt
+##total number 18207
+#/home/lpzhang/Desktop/crawler/ImageNet/spatula/gettyimages_spatula.txt_ITSELF_keep_0.8  n04270147
+#
+#### ['microphone'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/microphone/gettyimages_microphone.txt /home/lpzhang/Desktop/crawler/ImageNet/microphone/istockphoto_microphone.txt /home/lpzhang/Desktop/crawler/ImageNet/microphone/dreamstime_microphone.txt
+##total number 29031
+#/home/lpzhang/Desktop/crawler/ImageNet/microphone/gettyimages_microphone.txt_ITSELF_keep_0.7  n03759954
+#
+#### ['screwdriver'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/screwdriver/gettyimages_screwdriver.txt /home/lpzhang/Desktop/crawler/ImageNet/screwdriver/flickr_screwdriver.txt /home/lpzhang/Desktop/crawler/ImageNet/screwdriver/istockphoto_screwdriver.txt /home/lpzhang/Desktop/crawler/ImageNet/screwdriver/dreamstime_screwdriver.txt
+##total number 21982
+/home/lpzhang/Desktop/crawler/ImageNet/screwdriver/gettyimages_screwdriver.txt_ITSELF_keep_0.9  n04154565
+#
+#### ['waffle_iron', 'waffle_maker', 'waffleiron', 'wafflemaker', 'waffle-iron'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/waffle_iron/dreamstime_waffle_iron.txt /home/lpzhang/Desktop/crawler/ImageNet/waffle_iron/istockphoto_waffle_iron.txt /home/lpzhang/Desktop/crawler/ImageNet/waffle_iron/gettyimages_waffle_iron.txt /home/lpzhang/Desktop/crawler/ImageNet/waffle_maker/istockphoto_waffle_maker.txt /home/lpzhang/Desktop/crawler/ImageNet/waffle_maker/dreamstime_waffle_maker.txt /home/lpzhang/Desktop/crawler/ImageNet/waffleiron/flickr_waffleiron.txt /home/lpzhang/Desktop/crawler/ImageNet/wafflemaker/flickr_wafflemaker.txt /home/lpzhang/Desktop/crawler/ImageNet/waffle-iron/flickr_waffle-iron.txt
+##total number 2751
+#/home/lpzhang/Desktop/crawler/ImageNet/waffle_iron/dreamstime_waffle_iron.txt_ITSELF_keep_0.9  n04542943
+#
+#### ['pencil_box', 'pencil_case'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/pencil_box/gettyimages_pencil_box.txt /home/lpzhang/Desktop/crawler/ImageNet/pencil_case/gettyimages_pencil_case.txt /home/lpzhang/Desktop/crawler/ImageNet/pencil_box/flickr_pencil_box.txt /home/lpzhang/Desktop/crawler/ImageNet/pencil_box/istockphoto_pencil_box.txt /home/lpzhang/Desktop/crawler/ImageNet/pencil_case/istockphoto_pencil_case.txt /home/lpzhang/Desktop/crawler/ImageNet/pencil_box/dreamstime_pencil_box.txt /home/lpzhang/Desktop/crawler/ImageNet/pencil_case/dreamstime_pencil_case.txt
+##total number 14967
+/home/lpzhang/Desktop/crawler/ImageNet/pencil_box/gettyimages_pencil_box.txt_ITSELF_keep_0.9  n03908618
+#
+#### ['pretzel'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/pretzel/dreamstime_pretzel.txt /home/lpzhang/Desktop/crawler/ImageNet/pretzel/flickr_pretzel.txt /home/lpzhang/Desktop/crawler/ImageNet/pretzel/istockphoto_pretzel.txt /home/lpzhang/Desktop/crawler/ImageNet/pretzel/gettyimages_pretzel.txt
+##total number 15997
+#/home/lpzhang/Desktop/crawler/ImageNet/pretzel/dreamstime_pretzel.txt_ITSELF_keep_0.85  n07695742
+#
+#### ['metal_nail', 'metal_nails', 'iron_nail', 'iron-nail'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/metal_nail/dreamstime_metal_nail.txt /home/lpzhang/Desktop/crawler/ImageNet/metal_nails/istockphoto_metal_nails.txt /home/lpzhang/Desktop/crawler/ImageNet/iron_nail/gettyimages_iron_nail.txt /home/lpzhang/Desktop/crawler/ImageNet/iron-nail/flickr_iron-nail.txt
+##total number 14302
+#/home/lpzhang/Desktop/crawler/ImageNet/metal_nail/dreamstime_metal_nail.txt_ITSELF_keep_0.9  n03804744
+#
+#### ['axe'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/axe/gettyimages_axe.txt /home/lpzhang/Desktop/crawler/ImageNet/axe/istockphoto_axe.txt /home/lpzhang/Desktop/crawler/ImageNet/axe/dreamstime_axe.txt
+##total number 25098
+#/home/lpzhang/Desktop/crawler/ImageNet/axe/gettyimages_axe.txt_ITSELF_keep_0.75  n02764044  n03498962
+#
+#### ['harmonica'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/harmonica/gettyimages_harmonica.txt /home/lpzhang/Desktop/crawler/ImageNet/harmonica/flickr_harmonica.txt /home/lpzhang/Desktop/crawler/ImageNet/harmonica/istockphoto_harmonica.txt /home/lpzhang/Desktop/crawler/ImageNet/harmonica/dreamstime_harmonica.txt
+##total number 6372
+#/home/lpzhang/Desktop/crawler/ImageNet/harmonica/gettyimages_harmonica.txt_ITSELF_keep_0.9  n03494278
+#
+#### ['chainsaw'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/chainsaw/gettyimages_chainsaw.txt /home/lpzhang/Desktop/crawler/ImageNet/chainsaw/flickr_chainsaw.txt /home/lpzhang/Desktop/crawler/ImageNet/chainsaw/istockphoto_chainsaw.txt /home/lpzhang/Desktop/crawler/ImageNet/chainsaw/dreamstime_chainsaw.txt
+##total number 12617
+/home/lpzhang/Desktop/crawler/ImageNet/chainsaw/gettyimages_chainsaw.txt_ITSELF_keep_0.85  n03000684
+#
+#### ['face_powder'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/face_powder/gettyimages_face_powder.txt /home/lpzhang/Desktop/crawler/ImageNet/face_powder/istockphoto_face_powder.txt /home/lpzhang/Desktop/crawler/ImageNet/face_powder/dreamstime_face_powder.txt
+##total number 20943
+/home/lpzhang/Desktop/crawler/ImageNet/face_powder/gettyimages_face_powder.txt_ITSELF_keep_0.85  n03314780
+#
+#### ['trombone', 'trombone_instrument'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/trombone/gettyimages_trombone.txt /home/lpzhang/Desktop/crawler/ImageNet/trombone_instrument/flickr_trombone_instrument.txt /home/lpzhang/Desktop/crawler/ImageNet/trombone_instrument/istockphoto_trombone_instrument.txt /home/lpzhang/Desktop/crawler/ImageNet/trombone_instrument/dreamstime_trombone_instrument.txt
+##total number 9936
+/home/lpzhang/Desktop/crawler/ImageNet/trombone/gettyimages_trombone.txt_ITSELF_keep_0.75  n04487394
+#
+#### ['bow_arrow', 'bowarrow'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/bow_arrow/gettyimages_bow_arrow.txt /home/lpzhang/Desktop/crawler/ImageNet/bowarrow/flickr_bowarrow.txt /home/lpzhang/Desktop/crawler/ImageNet/bow_arrow/istockphoto_bow_arrow.txt /home/lpzhang/Desktop/crawler/ImageNet/bow_arrow/dreamstime_bow_arrow.txt
+##total number 14931
+/home/lpzhang/Desktop/crawler/ImageNet/bow_arrow/gettyimages_bow_arrow.txt_ITSELF_keep_0.9  n02879718
+#
+#### ['jellyfish'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/jellyfish/gettyimages_jellyfish.txt /home/lpzhang/Desktop/crawler/ImageNet/jellyfish/dreamstime_jellyfish.txt
+##total number 17503
+/home/lpzhang/Desktop/crawler/ImageNet/jellyfish/gettyimages_jellyfish.txt_ITSELF_keep_0.75  n01910747
+#
+#### ['crutch'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/crutch/istockphoto_crutch.txt /home/lpzhang/Desktop/crawler/ImageNet/crutch/gettyimages_crutch.txt /home/lpzhang/Desktop/crawler/ImageNet/crutch/flickr_crutch.txt /home/lpzhang/Desktop/crawler/ImageNet/crutch/dreamstime_crutch.txt
+##total number 11712
+#/home/lpzhang/Desktop/crawler/ImageNet/crutch/istockphoto_crutch.txt_ITSELF_keep_0.75  n03141823
+#
+#### ['cocktail_shaker'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/cocktail_shaker/dreamstime_cocktail_shaker.txt /home/lpzhang/Desktop/crawler/ImageNet/cocktail_shaker/istockphoto_cocktail_shaker.txt /home/lpzhang/Desktop/crawler/ImageNet/cocktail_shaker/gettyimages_cocktail_shaker.txt
+##total number 4237
+#/home/lpzhang/Desktop/crawler/ImageNet/cocktail_shaker/dreamstime_cocktail_shaker.txt_ITSELF_keep_0.9  n03062245
+#
+#### ['flute_instrument'] ###
+##/home/lpzhang/Desktop/crawler/ImageNet/flute_instrument/gettyimages_flute_instrument.txt /home/lpzhang/Desktop/crawler/ImageNet/flute_instrument/dreamstime_flute_instrument.txt /home/lpzhang/Desktop/crawler/ImageNet/flute_instrument/istockphoto_flute_instrument.txt /home/lpzhang/Desktop/crawler/ImageNet/flute_instrument/flickr_flute_instrument.txt
+##total number 12687
+/home/lpzhang/Desktop/crawler/ImageNet/flute_instrument/gettyimages_flute_instrument.txt_ITSELF_keep_0.85  n03372029

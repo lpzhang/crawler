@@ -1,0 +1,80 @@
+### candidate files
+### eachline contain same object candidate files
+
+#/home/lpzhang/Desktop/crawler/ImageNet/rubber_eraser/gettyimages_rubber_eraser.txt  /home/lpzhang/Desktop/crawler/ImageNet/pencil_eraser/gettyimages_pencil_eraser.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/snow_ski/gettyimages_snow_ski.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/horizontal_bar/gettyimages_horizontal_bar.txt
+
+#/home/lpzhang/Desktop/crawler/ImageNet/plate_rack/gettyimages_plate_rack.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/stretcher/gettyimages_stretcher.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/flowerpot/gettyimages_flowerpot.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/lamp/gettyimages_lamp.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/filing_cabinet/gettyimages_filing_cabinet.txt  /home/lpzhang/Desktop/crawler/ImageNet/file_cabinet/gettyimages_file_cabinet.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/head_cabbage/gettyimages_head_cabbage.txt  /home/lpzhang/Desktop/crawler/ImageNet/head_cabbage_plant/gettyimages_head_cabbage_plant.txt  /home/lpzhang/Desktop/crawler/ImageNet/brassica_oleracea_capitata/gettyimages_brassica_oleracea_capitata.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/backpack/gettyimages_backpack.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/ladle/gettyimages_ladle.txt  /home/lpzhang/Desktop/crawler/ImageNet/soup_ladle/gettyimages_soup_ladle.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/bookshelf/gettyimages_bookshelf.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/park_bench/gettyimages_park_bench.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/spatula/gettyimages_spatula.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/microphone/gettyimages_microphone.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/screwdriver/gettyimages_screwdriver.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/plastic_bag/gettyimages_plastic_bag.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/binder/gettyimages_binder.txt
+
+#/home/lpzhang/Desktop/crawler/ImageNet/waffle_iron/gettyimages_waffle_iron.txt
+
+#/home/lpzhang/Desktop/crawler/ImageNet/pencil_box/gettyimages_pencil_box.txt  /home/lpzhang/Desktop/crawler/ImageNet/pencil_case/gettyimages_pencil_case.txt
+
+#/home/lpzhang/Desktop/crawler/ImageNet/pretzel/gettyimages_pretzel.txt
+
+#/home/lpzhang/Desktop/crawler/ImageNet/iron_nail/gettyimages_iron_nail.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/purse/gettyimages_purse.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/hockey_pucks/gettyimages_hockey_pucks.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/axe/gettyimages_axe.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/swimming_trunks/gettyimages_swimming_trunks.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/banana/gettyimages_banana.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/dumbbell/gettyimages_dumbbell.txt
+
+#/home/lpzhang/Desktop/crawler/ImageNet/harmonica/gettyimages_harmonica.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/chainsaw/gettyimages_chainsaw.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/miniskirts/gettyimages_miniskirts.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/face_powder/gettyimages_face_powder.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/stoves/gettyimages_stoves.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/trombone/gettyimages_trombone.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/bow_arrow/gettyimages_bow_arrow.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/bow_ties/gettyimages_bow_ties.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/jellyfish/gettyimages_jellyfish.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/flute_instrument/gettyimages_flute_instrument.txt
+
+/home/lpzhang/Desktop/crawler/ImageNet/frying_pan/gettyimages_frying_pan.txt
