@@ -1,20 +1,20 @@
-# crawler
-crawler images from website for ImageNet Extra Dataset
-
+#crawler images from website
 step 1: crawl image url
-download_image_list.sh call gettyimages_flickr_download_image_list.py to:
-crawl images id and url from keywords
-output image list file which eachline contains image id and url
+./crawl_image_list/crawl_image_list.sh
+crawl images id and url from keyword file
+results which each file contains image id and url are store in ./output
 
 step 2: download image from url
-wget_download_images.sh call wget_download.sh to:
-download images from crawled file from step 1 which contain image id and url.
+./download_images/download_images.sh
+download images from above crawled file
+outputs are store in ./output
 
-step 3: Refiner for ITSELF
+#delete similar images compare to other dataset
+step 1: Refiner for ITSELF
 delete duplicate images based on histogram features
 
-step 4: Refiner for Train
-delete images which are similar with Imagenet train dataset
+step 2: Refiner for TRAIN
+delete images which are similar with trainval set
 
-step 5: Refiner for Test
-delete images which are similar with Imagenet Test dataset
+step 3: Refiner for TEST
+delete images which are similar with testset
