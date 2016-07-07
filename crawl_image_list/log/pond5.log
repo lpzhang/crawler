@@ -1,0 +1,33 @@
+Python
+webtype: pond5
+image_number: 2
+keywords_file: /home/lpzhang/Desktop/github/crawler/crawl_image_list/keyword/pond5.keyword
+outdir: /home/lpzhang/Desktop/github/crawler/output
+args checked
+
+++++++++++++++++++++++++++ START +++++++++++++++++++++++++++++++++
+------ begin crawl 1(2) ------
+keyword: apple
+Need total images: 2
+crawl from website: pond5
+output file: /home/lpzhang/Desktop/github/crawler/output/apple/pond5_apple.txt
+crawl images infos from dreamstime
+****** current page 1 (3109) ******
+truncated image_infos size: 2
+save infos
+------ crawl apple cost 3.36197090149 seconds ------
+
+------ begin crawl 2(2) ------
+keyword: snow ski
+Need total images: 2
+crawl from website: pond5
+output file: /home/lpzhang/Desktop/github/crawler/output/snow_ski/pond5_snow_ski.txt
+crawl images infos from dreamstime
+****** current page 1 (646) ******
+truncated image_infos size: 2
+save infos
+------ crawl snow ski cost 3.64915800095 seconds ------
+
+save outfilelist: /home/lpzhang/Desktop/github/crawler/crawl_image_list/keyword/pond5.download
+------------- total cost 7.01133012772 seconds ----------
+++++++++++++++++++++++++++ DONE +++++++++++++++++++++++++++++++++

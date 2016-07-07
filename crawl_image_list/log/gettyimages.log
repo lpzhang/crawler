@@ -1,0 +1,33 @@
+Python
+webtype: gettyimages
+image_number: 2
+keywords_file: /home/lpzhang/Desktop/github/crawler/crawl_image_list/keyword/gettyimages.keyword
+outdir: /home/lpzhang/Desktop/github/crawler/output
+args checked
+
+++++++++++++++++++++++++++ START +++++++++++++++++++++++++++++++++
+------ begin crawl 1(2) ------
+keyword: apple
+Need total images: 2
+crawl from website: gettyimages
+output file: /home/lpzhang/Desktop/github/crawler/output/apple/gettyimages_apple.txt
+crawl images infos from gettyimages
+****** current page 1 (3124) ******
+truncated image_infos size: 2
+save infos
+------ crawl apple cost 0.631549119949 seconds ------
+
+------ begin crawl 2(2) ------
+keyword: snow ski
+Need total images: 2
+crawl from website: gettyimages
+output file: /home/lpzhang/Desktop/github/crawler/output/snow_ski/gettyimages_snow_ski.txt
+crawl images infos from gettyimages
+****** current page 1 (1009) ******
+truncated image_infos size: 2
+save infos
+------ crawl snow ski cost 0.747358083725 seconds ------
+
+save outfilelist: /home/lpzhang/Desktop/github/crawler/crawl_image_list/keyword/gettyimages.download
+------------- total cost 1.37924289703 seconds ----------
+++++++++++++++++++++++++++ DONE +++++++++++++++++++++++++++++++++

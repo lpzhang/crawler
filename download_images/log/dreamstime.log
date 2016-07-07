@@ -1,0 +1,71 @@
+Start...
+output dir: /home/lpzhang/Desktop/github/crawler/output/apple/dreamstime_apple
+--2016-07-07 16:48:57--  http://thumbs.dreamstime.com/z/image-43330241.jpg
+Resolving thumbs.dreamstime.com (thumbs.dreamstime.com)... 192.229.144.114
+Connecting to thumbs.dreamstime.com (thumbs.dreamstime.com)|192.229.144.114|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 120266 (117K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/apple/dreamstime_apple/dreamstime_43330241.jpg’
+
+     0K .......... .......... .......... .......... .......... 42% 15.1M 0s
+    50K .......... .......... .......... .......... .......... 85%  317K 0s
+   100K .......... .......                                    100% 52.7M=0.2s
+
+2016-07-07 16:48:57 (729 KB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/apple/dreamstime_apple/dreamstime_43330241.jpg’ saved [120266/120266]
+
+dreamstime_43330241.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/apple/dreamstime_apple/dreamstime_43330241.jpg
+--2016-07-07 16:48:57--  http://thumbs.dreamstime.com/z/image-19468830.jpg
+Resolving thumbs.dreamstime.com (thumbs.dreamstime.com)... 192.229.144.114
+Connecting to thumbs.dreamstime.com (thumbs.dreamstime.com)|192.229.144.114|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 206544 (202K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/apple/dreamstime_apple/dreamstime_19468830.jpg’
+
+     0K .......... .......... .......... .......... .......... 24%  312K 0s
+    50K .......... .......... .......... .......... .......... 49% 18.3M 0s
+   100K .......... .......... .......... .......... .......... 74%  301K 0s
+   150K .......... .......... .......... .......... .......... 99% 20.5M 0s
+   200K .                                                     100% 3248G=0.3s
+
+2016-07-07 16:48:58 (608 KB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/apple/dreamstime_apple/dreamstime_19468830.jpg’ saved [206544/206544]
+
+dreamstime_19468830.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/apple/dreamstime_apple/dreamstime_19468830.jpg
+0 minutes and 1 seconds elapsed.
+---------------------
+ 
+output dir: /home/lpzhang/Desktop/github/crawler/output/snow_ski/dreamstime_snow_ski
+--2016-07-07 16:48:58--  http://thumbs.dreamstime.com/z/image-13182062.jpg
+Resolving thumbs.dreamstime.com (thumbs.dreamstime.com)... 192.229.144.114
+Connecting to thumbs.dreamstime.com (thumbs.dreamstime.com)|192.229.144.114|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 118016 (115K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/dreamstime_snow_ski/dreamstime_13182062.jpg’
+
+     0K .......... .......... .......... .......... .......... 43% 26.3M 0s
+    50K .......... .......... .......... .......... .......... 86% 14.0M 0s
+   100K .......... .....                                      100%  300M=0.005s
+
+2016-07-07 16:48:58 (20.9 MB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/dreamstime_snow_ski/dreamstime_13182062.jpg’ saved [118016/118016]
+
+dreamstime_13182062.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/snow_ski/dreamstime_snow_ski/dreamstime_13182062.jpg
+--2016-07-07 16:48:58--  http://thumbs.dreamstime.com/z/image-982000.jpg
+Resolving thumbs.dreamstime.com (thumbs.dreamstime.com)... 192.229.144.114
+Connecting to thumbs.dreamstime.com (thumbs.dreamstime.com)|192.229.144.114|:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 276796 (270K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/dreamstime_snow_ski/dreamstime_982000.jpg’
+
+     0K .......... .......... .......... .......... .......... 18% 26.4M 0s
+    50K .......... .......... .......... .......... .......... 36% 25.4M 0s
+   100K .......... .......... .......... .......... .......... 55% 24.3M 0s
+   150K .......... .......... .......... .......... .......... 73% 46.0M 0s
+   200K .......... .......... .......... .......... .......... 92% 34.7M 0s
+   250K .......... ..........                                 100%  136K=0.2s
+
+2016-07-07 16:48:59 (1.67 MB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/dreamstime_snow_ski/dreamstime_982000.jpg’ saved [276796/276796]
+
+dreamstime_982000.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/snow_ski/dreamstime_snow_ski/dreamstime_982000.jpg
+0 minutes and 1 seconds elapsed.
+---------------------
+ 
+...Done

@@ -1,0 +1,99 @@
+Start...
+output dir: /home/lpzhang/Desktop/github/crawler/output/apple/gettyimages_apple
+--2016-07-07 16:48:57--  http://media.gettyimages.com/photos/id487381620
+Resolving media.gettyimages.com (media.gettyimages.com)... 23.42.165.194
+Connecting to media.gettyimages.com (media.gettyimages.com)|23.42.165.194|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /photos/an-apple-logo-hangs-on-the-outside-bill-graham-civic-auditorium-on-9-picture-id487381620 [following]
+--2016-07-07 16:48:57--  http://media.gettyimages.com/photos/an-apple-logo-hangs-on-the-outside-bill-graham-civic-auditorium-on-9-picture-id487381620
+Reusing existing connection to media.gettyimages.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 372258 (364K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/apple/gettyimages_apple/gettyimages_487381620.jpg’
+
+     0K .......... .......... .......... .......... .......... 13% 18.0M 0s
+    50K .......... .......... .......... .......... .......... 27% 23.7M 0s
+   100K .......... .......... .......... .......... .......... 41% 29.9M 0s
+   150K .......... .......... .......... .......... .......... 55% 97.8M 0s
+   200K .......... .......... .......... .......... .......... 68% 35.0M 0s
+   250K .......... .......... .......... .......... .......... 82%  175M 0s
+   300K .......... .......... .......... .......... .......... 96%  101M 0s
+   350K .......... ...                                        100%  422M=0.009s
+
+2016-07-07 16:48:57 (39.0 MB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/apple/gettyimages_apple/gettyimages_487381620.jpg’ saved [372258/372258]
+
+gettyimages_487381620.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/apple/gettyimages_apple/gettyimages_487381620.jpg
+--2016-07-07 16:48:57--  http://media.gettyimages.com/photos/id548326209
+Resolving media.gettyimages.com (media.gettyimages.com)... 23.42.165.194
+Connecting to media.gettyimages.com (media.gettyimages.com)|23.42.165.194|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /photos/closeup-of-slices-of-apple-picture-id548326209 [following]
+--2016-07-07 16:48:57--  http://media.gettyimages.com/photos/closeup-of-slices-of-apple-picture-id548326209
+Reusing existing connection to media.gettyimages.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 417968 (408K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/apple/gettyimages_apple/gettyimages_548326209.jpg’
+
+     0K .......... .......... .......... .......... .......... 12% 24.5M 0s
+    50K .......... .......... .......... .......... .......... 24% 24.4M 0s
+   100K .......... .......... .......... .......... .......... 36% 27.7M 0s
+   150K .......... .......... .......... .......... .......... 48%  131M 0s
+   200K .......... .......... .......... .......... .......... 61% 35.9M 0s
+   250K .......... .......... .......... .......... .......... 73% 92.9M 0s
+   300K .......... .......... .......... .......... .......... 85%  102M 0s
+   350K .......... .......... .......... .......... .......... 97%  171M 0s
+   400K ........                                              100% 39.4M=0.009s
+
+2016-07-07 16:48:57 (44.4 MB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/apple/gettyimages_apple/gettyimages_548326209.jpg’ saved [417968/417968]
+
+gettyimages_548326209.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/apple/gettyimages_apple/gettyimages_548326209.jpg
+0 minutes and 0 seconds elapsed.
+---------------------
+ 
+output dir: /home/lpzhang/Desktop/github/crawler/output/snow_ski/gettyimages_snow_ski
+--2016-07-07 16:48:57--  http://media.gettyimages.com/photos/id112069373
+Resolving media.gettyimages.com (media.gettyimages.com)... 23.42.165.194
+Connecting to media.gettyimages.com (media.gettyimages.com)|23.42.165.194|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /photos/red-pair-of-ski-in-snow-picture-id112069373 [following]
+--2016-07-07 16:48:59--  http://media.gettyimages.com/photos/red-pair-of-ski-in-snow-picture-id112069373
+Reusing existing connection to media.gettyimages.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 382564 (374K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/gettyimages_snow_ski/gettyimages_112069373.jpg’
+
+     0K .......... .......... .......... .......... .......... 13% 1.97K 2m44s
+    50K .......... .......... .......... .......... .......... 26% 68.0K 71s
+   100K .......... .......... .......... .......... .......... 40%  108K 40s
+   150K .......... .......... .......... .......... .......... 53% 98.4K 24s
+   200K .......... .......... .......... .......... .......... 66%  130K 14s
+   250K .......... .......... .......... .......... .......... 80% 93.4K 7s
+   300K .......... .......... .......... .......... .......... 93%  180K 2s
+   350K .......... .......... ...                             100%  139K=28s
+
+2016-07-07 16:49:28 (13.1 KB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/gettyimages_snow_ski/gettyimages_112069373.jpg’ saved [382564/382564]
+
+gettyimages_112069373.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/snow_ski/gettyimages_snow_ski/gettyimages_112069373.jpg
+--2016-07-07 16:49:28--  http://media.gettyimages.com/photos/id469341377
+Resolving media.gettyimages.com (media.gettyimages.com)... 23.42.165.194
+Connecting to media.gettyimages.com (media.gettyimages.com)|23.42.165.194|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /photos/skiers-and-snowboarders-enjoy-the-recent-snowfall-at-glenshee-ski-on-picture-id469341377 [following]
+--2016-07-07 16:49:28--  http://media.gettyimages.com/photos/skiers-and-snowboarders-enjoy-the-recent-snowfall-at-glenshee-ski-on-picture-id469341377
+Reusing existing connection to media.gettyimages.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 196416 (192K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/gettyimages_snow_ski/gettyimages_469341377.jpg’
+
+     0K .......... .......... .......... .......... .......... 26% 23.1M 0s
+    50K .......... .......... .......... .......... .......... 52% 22.1M 0s
+   100K .......... .......... .......... .......... .......... 78% 26.5M 0s
+   150K .......... .......... .......... .......... .         100%  104M=0.007s
+
+2016-07-07 16:49:29 (28.5 MB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/gettyimages_snow_ski/gettyimages_469341377.jpg’ saved [196416/196416]
+
+gettyimages_469341377.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/snow_ski/gettyimages_snow_ski/gettyimages_469341377.jpg
+0 minutes and 32 seconds elapsed.
+---------------------
+ 
+...Done

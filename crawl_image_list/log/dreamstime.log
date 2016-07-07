@@ -1,0 +1,33 @@
+Python
+webtype: dreamstime
+image_number: 2
+keywords_file: /home/lpzhang/Desktop/github/crawler/crawl_image_list/keyword/dreamstime.keyword
+outdir: /home/lpzhang/Desktop/github/crawler/output
+args checked
+
+++++++++++++++++++++++++++ START +++++++++++++++++++++++++++++++++
+------ begin crawl 1(2) ------
+keyword: apple
+Need total images: 2
+crawl from website: dreamstime
+output file: /home/lpzhang/Desktop/github/crawler/output/apple/dreamstime_apple.txt
+crawl images infos from dreamstime
+****** current page 1 (303) ******
+truncated image_infos size: 2
+save infos
+------ crawl apple cost 5.32127809525 seconds ------
+
+------ begin crawl 2(2) ------
+keyword: snow ski
+Need total images: 2
+crawl from website: dreamstime
+output file: /home/lpzhang/Desktop/github/crawler/output/snow_ski/dreamstime_snow_ski.txt
+crawl images infos from dreamstime
+****** current page 1 (79) ******
+truncated image_infos size: 2
+save infos
+------ crawl snow ski cost 5.35355210304 seconds ------
+
+save outfilelist: /home/lpzhang/Desktop/github/crawler/crawl_image_list/keyword/dreamstime.download
+------------- total cost 10.6750640869 seconds ----------
+++++++++++++++++++++++++++ DONE +++++++++++++++++++++++++++++++++

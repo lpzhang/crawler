@@ -1,0 +1,33 @@
+Python
+webtype: flickr
+image_number: 2
+keywords_file: /home/lpzhang/Desktop/github/crawler/crawl_image_list/keyword/flickr.keyword
+outdir: /home/lpzhang/Desktop/github/crawler/output
+args checked
+
+++++++++++++++++++++++++++ START +++++++++++++++++++++++++++++++++
+------ begin crawl 1(2) ------
+keyword: apple
+Need total images: 2
+crawl from website: flickr
+output file: /home/lpzhang/Desktop/github/crawler/output/apple/flickr_apple.txt
+crawl images infos from flickr
+****** current page 1 (3936) ******
+truncated image_infos size: 2
+save infos
+------ crawl apple cost 4.44706201553 seconds ------
+
+------ begin crawl 2(2) ------
+keyword: snow_ski
+Need total images: 2
+crawl from website: flickr
+output file: /home/lpzhang/Desktop/github/crawler/output/snow_ski/flickr_snow_ski.txt
+crawl images infos from flickr
+****** current page 1 (465) ******
+truncated image_infos size: 2
+save infos
+------ crawl snow_ski cost 15.5581951141 seconds ------
+
+save outfilelist: /home/lpzhang/Desktop/github/crawler/crawl_image_list/keyword/flickr.download
+------------- total cost 20.0055220127 seconds ----------
+++++++++++++++++++++++++++ DONE +++++++++++++++++++++++++++++++++

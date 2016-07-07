@@ -1,0 +1,106 @@
+Start...
+output dir: /home/lpzhang/Desktop/github/crawler/output/apple/istockphoto_apple
+--2016-07-07 16:48:57--  http://media.istockphoto.com/photos/id511385370
+Resolving media.istockphoto.com (media.istockphoto.com)... 104.114.145.222
+Connecting to media.istockphoto.com (media.istockphoto.com)|104.114.145.222|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /photos/fruit-still-life-pear-and-apple-picture-id511385370 [following]
+--2016-07-07 16:48:57--  http://media.istockphoto.com/photos/fruit-still-life-pear-and-apple-picture-id511385370
+Reusing existing connection to media.istockphoto.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 291958 (285K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/apple/istockphoto_apple/istockphoto_511385370.jpg’
+
+     0K .......... .......... .......... .......... .......... 17% 1.81K 2m10s
+    50K .......... .......... .......... .......... .......... 35% 48.6K 53s
+   100K .......... .......... .......... .......... .......... 52% 48.7K 27s
+   150K .......... .......... .......... .......... .......... 70% 47.9K 13s
+   200K .......... .......... .......... .......... .......... 87% 64.9K 4s
+   250K .......... .......... .......... .....                100% 45.6K=32s
+
+2016-07-07 16:49:32 (8.84 KB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/apple/istockphoto_apple/istockphoto_511385370.jpg’ saved [291958/291958]
+
+istockphoto_511385370.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/apple/istockphoto_apple/istockphoto_511385370.jpg
+--2016-07-07 16:49:32--  http://media.istockphoto.com/photos/id527026233
+Resolving media.istockphoto.com (media.istockphoto.com)... 104.114.145.222
+Connecting to media.istockphoto.com (media.istockphoto.com)|104.114.145.222|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /photos/red-delicious-apple-shot-from-above-on-a-white-background-picture-id527026233 [following]
+--2016-07-07 16:49:32--  http://media.istockphoto.com/photos/red-delicious-apple-shot-from-above-on-a-white-background-picture-id527026233
+Reusing existing connection to media.istockphoto.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 619062 (605K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/apple/istockphoto_apple/istockphoto_527026233.jpg’
+
+     0K .......... .......... .......... .......... ..........  8% 8.25M 0s
+    50K .......... .......... .......... .......... .......... 16% 2.26M 0s
+   100K .......... .......... .......... .......... .......... 24% 5.72M 0s
+   150K .......... .......... .......... .......... .......... 33%  298K 0s
+   200K .......... .......... .......... .......... .......... 41% 8.85M 0s
+   250K .......... .......... .......... .......... .......... 49% 4.40M 0s
+   300K .......... .......... .......... .......... .......... 57% 3.34M 0s
+   350K .......... .......... .......... .......... .......... 66% 5.07M 0s
+   400K .......... .......... .......... .......... .......... 74%  303K 0s
+   450K .......... .......... .......... .......... .......... 82% 5.85M 0s
+   500K .......... .......... .......... .......... .......... 90% 2.87M 0s
+   550K .......... .......... .......... .......... .......... 99% 5.61M 0s
+   600K ....                                                  100%  522K=0.5s
+
+2016-07-07 16:49:33 (1.30 MB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/apple/istockphoto_apple/istockphoto_527026233.jpg’ saved [619062/619062]
+
+istockphoto_527026233.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/apple/istockphoto_apple/istockphoto_527026233.jpg
+0 minutes and 36 seconds elapsed.
+---------------------
+ 
+output dir: /home/lpzhang/Desktop/github/crawler/output/snow_ski/istockphoto_snow_ski
+--2016-07-07 16:49:33--  http://media.istockphoto.com/photos/id512061284
+Resolving media.istockphoto.com (media.istockphoto.com)... 104.114.145.222
+Connecting to media.istockphoto.com (media.istockphoto.com)|104.114.145.222|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /photos/ski-sport-woman-and-man-in-snowy-mountains-picture-id512061284 [following]
+--2016-07-07 16:49:34--  http://media.istockphoto.com/photos/ski-sport-woman-and-man-in-snowy-mountains-picture-id512061284
+Reusing existing connection to media.istockphoto.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 544037 (531K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/istockphoto_snow_ski/istockphoto_512061284.jpg’
+
+     0K .......... .......... .......... .......... ..........  9% 12.1M 0s
+    50K .......... .......... .......... .......... .......... 18%  201K 1s
+   100K .......... .......... .......... .......... .......... 28% 22.7M 1s
+   150K .......... .......... .......... .......... .......... 37% 12.0M 0s
+   200K .......... .......... .......... .......... .......... 47%  225K 1s
+   250K .......... .......... .......... .......... .......... 56% 24.1M 0s
+   300K .......... .......... .......... .......... .......... 65% 84.9M 0s
+   350K .......... .......... .......... .......... .......... 75% 30.5M 0s
+   400K .......... .......... .......... .......... .......... 84% 62.8M 0s
+   450K .......... .......... .......... .......... .......... 94% 70.7M 0s
+   500K .......... .......... .......... .                    100%  111M=0.5s
+
+2016-07-07 16:49:35 (1.06 MB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/istockphoto_snow_ski/istockphoto_512061284.jpg’ saved [544037/544037]
+
+istockphoto_512061284.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/snow_ski/istockphoto_snow_ski/istockphoto_512061284.jpg
+--2016-07-07 16:49:35--  http://media.istockphoto.com/photos/id496847626
+Resolving media.istockphoto.com (media.istockphoto.com)... 104.114.145.222
+Connecting to media.istockphoto.com (media.istockphoto.com)|104.114.145.222|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: /photos/baggage-tourist-picture-id496847626 [following]
+--2016-07-07 16:49:35--  http://media.istockphoto.com/photos/baggage-tourist-picture-id496847626
+Reusing existing connection to media.istockphoto.com:80.
+HTTP request sent, awaiting response... 200 OK
+Length: 267021 (261K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/istockphoto_snow_ski/istockphoto_496847626.jpg’
+
+     0K .......... .......... .......... .......... .......... 19% 11.1M 0s
+    50K .......... .......... .......... .......... .......... 38% 26.0M 0s
+   100K .......... .......... .......... .......... .......... 57% 20.6M 0s
+   150K .......... .......... .......... .......... .......... 76% 20.2M 0s
+   200K .......... .......... .......... .......... .......... 95% 20.4M 0s
+   250K ..........                                            100%  175K=0.08s
+
+2016-07-07 16:49:36 (3.39 MB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/istockphoto_snow_ski/istockphoto_496847626.jpg’ saved [267021/267021]
+
+istockphoto_496847626.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/snow_ski/istockphoto_snow_ski/istockphoto_496847626.jpg
+0 minutes and 3 seconds elapsed.
+---------------------
+ 
+...Done

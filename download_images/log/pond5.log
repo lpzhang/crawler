@@ -1,0 +1,58 @@
+Start...
+output dir: /home/lpzhang/Desktop/github/crawler/output/apple/pond5_apple
+--2016-07-07 16:48:57--  https://d1hw6n3yxknhky.cloudfront.net/021788019_iconl.jpeg
+Resolving d1hw6n3yxknhky.cloudfront.net (d1hw6n3yxknhky.cloudfront.net)... 52.85.148.114, 52.85.148.10, 52.85.148.229, ...
+Connecting to d1hw6n3yxknhky.cloudfront.net (d1hw6n3yxknhky.cloudfront.net)|52.85.148.114|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 15404 (15K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/apple/pond5_apple/pond5_021788019.jpg’
+
+     0K .......... .....                                      100% 73.4K=0.2s
+
+2016-07-07 16:48:58 (73.4 KB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/apple/pond5_apple/pond5_021788019.jpg’ saved [15404/15404]
+
+pond5_021788019.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/apple/pond5_apple/pond5_021788019.jpg
+--2016-07-07 16:48:58--  https://d1hw6n3yxknhky.cloudfront.net/027699161_iconl.jpeg
+Resolving d1hw6n3yxknhky.cloudfront.net (d1hw6n3yxknhky.cloudfront.net)... 52.85.148.10, 52.85.148.229, 52.85.148.245, ...
+Connecting to d1hw6n3yxknhky.cloudfront.net (d1hw6n3yxknhky.cloudfront.net)|52.85.148.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 9622 (9.4K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/apple/pond5_apple/pond5_027699161.jpg’
+
+     0K .........                                             100%  239M=0s
+
+2016-07-07 16:48:58 (239 MB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/apple/pond5_apple/pond5_027699161.jpg’ saved [9622/9622]
+
+pond5_027699161.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/apple/pond5_apple/pond5_027699161.jpg
+0 minutes and 1 seconds elapsed.
+---------------------
+ 
+output dir: /home/lpzhang/Desktop/github/crawler/output/snow_ski/pond5_snow_ski
+--2016-07-07 16:48:58--  https://d1hw6n3yxknhky.cloudfront.net/032184305_iconl.jpeg
+Resolving d1hw6n3yxknhky.cloudfront.net (d1hw6n3yxknhky.cloudfront.net)... 52.85.148.229, 52.85.148.245, 52.85.148.233, ...
+Connecting to d1hw6n3yxknhky.cloudfront.net (d1hw6n3yxknhky.cloudfront.net)|52.85.148.229|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 24862 (24K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/pond5_snow_ski/pond5_032184305.jpg’
+
+     0K .......... .......... ....                            100%  126K=0.2s
+
+2016-07-07 16:49:00 (126 KB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/pond5_snow_ski/pond5_032184305.jpg’ saved [24862/24862]
+
+pond5_032184305.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/snow_ski/pond5_snow_ski/pond5_032184305.jpg
+--2016-07-07 16:49:00--  https://d3thflcq1yqzn0.cloudfront.net/032184260_iconl.jpeg
+Resolving d3thflcq1yqzn0.cloudfront.net (d3thflcq1yqzn0.cloudfront.net)... 52.85.148.44, 52.85.148.251, 52.85.148.32, ...
+Connecting to d3thflcq1yqzn0.cloudfront.net (d3thflcq1yqzn0.cloudfront.net)|52.85.148.44|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 21683 (21K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/pond5_snow_ski/pond5_032184260.jpg’
+
+     0K .......... .......... .                               100%  115K=0.2s
+
+2016-07-07 16:49:01 (115 KB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/pond5_snow_ski/pond5_032184260.jpg’ saved [21683/21683]
+
+pond5_032184260.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/snow_ski/pond5_snow_ski/pond5_032184260.jpg
+0 minutes and 3 seconds elapsed.
+---------------------
+ 
+...Done

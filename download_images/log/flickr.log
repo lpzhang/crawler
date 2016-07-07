@@ -1,0 +1,77 @@
+Start...
+output dir: /home/lpzhang/Desktop/github/crawler/output/apple/flickr_apple
+--2016-07-07 16:48:57--  https://farm4.staticflickr.com/3311/3614774881_398ec81e9b_b.jpg
+Resolving farm4.staticflickr.com (farm4.staticflickr.com)... 74.6.47.80, 124.108.97.216
+Connecting to farm4.staticflickr.com (farm4.staticflickr.com)|74.6.47.80|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 217131 (212K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/apple/flickr_apple/flickr_3614774881.jpg’
+
+     0K .......... .......... .......... .......... .......... 23%  127K 1s
+    50K .......... .......... .......... .......... .......... 47%  159K 1s
+   100K .......... .......... .......... .......... .......... 70%  282K 0s
+   150K .......... .......... .......... .......... .......... 94%  282K 0s
+   200K .......... ..                                         100% 63.1M=1.1s
+
+2016-07-07 16:48:59 (200 KB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/apple/flickr_apple/flickr_3614774881.jpg’ saved [217131/217131]
+
+flickr_3614774881.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/apple/flickr_apple/flickr_3614774881.jpg
+--2016-07-07 16:48:59--  https://farm3.staticflickr.com/2327/2195924580_229a454dda_b.jpg
+Resolving farm3.staticflickr.com (farm3.staticflickr.com)... 74.6.47.80, 124.108.97.216
+Connecting to farm3.staticflickr.com (farm3.staticflickr.com)|74.6.47.80|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 212114 (207K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/apple/flickr_apple/flickr_2195924580.jpg’
+
+     0K .......... .......... .......... .......... .......... 24%  132K 1s
+    50K .......... .......... .......... .......... .......... 48%  133K 1s
+   100K .......... .......... .......... .......... .......... 72%  265K 0s
+   150K .......... .......... .......... .......... .......... 96%  265K 0s
+   200K .......                                               100% 75.4M=1.1s
+
+2016-07-07 16:49:01 (183 KB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/apple/flickr_apple/flickr_2195924580.jpg’ saved [212114/212114]
+
+flickr_2195924580.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/apple/flickr_apple/flickr_2195924580.jpg
+0 minutes and 4 seconds elapsed.
+---------------------
+ 
+output dir: /home/lpzhang/Desktop/github/crawler/output/snow_ski/flickr_snow_ski
+--2016-07-07 16:49:01--  https://farm2.staticflickr.com/1076/555367984_08152a83ec_b.jpg
+Resolving farm2.staticflickr.com (farm2.staticflickr.com)... 74.6.47.80, 124.108.97.216
+Connecting to farm2.staticflickr.com (farm2.staticflickr.com)|74.6.47.80|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 370720 (362K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/flickr_snow_ski/flickr_555367984.jpg’
+
+     0K .......... .......... .......... .......... .......... 13%  141K 2s
+    50K .......... .......... .......... .......... .......... 27%  141K 2s
+   100K .......... .......... .......... .......... .......... 41%  282K 1s
+   150K .......... .......... .......... .......... .......... 55%  281K 1s
+   200K .......... .......... .......... .......... .......... 69% 1.26M 0s
+   250K .......... .......... .......... .......... .......... 82%  358K 0s
+   300K .......... .......... .......... .......... .......... 96%  288K 0s
+   350K .......... ..                                         100%  119M=1.4s
+
+2016-07-07 16:49:03 (256 KB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/flickr_snow_ski/flickr_555367984.jpg’ saved [370720/370720]
+
+flickr_555367984.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/snow_ski/flickr_snow_ski/flickr_555367984.jpg
+--2016-07-07 16:49:03--  https://farm1.staticflickr.com/155/379790347_a29d260226_b.jpg
+Resolving farm1.staticflickr.com (farm1.staticflickr.com)... 124.108.97.216, 74.6.47.80
+Connecting to farm1.staticflickr.com (farm1.staticflickr.com)|124.108.97.216|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 250944 (245K) [image/jpeg]
+Saving to: ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/flickr_snow_ski/flickr_379790347.jpg’
+
+     0K .......... .......... .......... .......... .......... 20%  296K 1s
+    50K .......... .......... .......... .......... .......... 40%  329K 0s
+   100K .......... .......... .......... .......... .......... 61%  470K 0s
+   150K .......... .......... .......... .......... .......... 81%  309K 0s
+   200K .......... .......... .......... .......... .....     100% 11.4M=0.6s
+
+2016-07-07 16:49:04 (413 KB/s) - ‘/home/lpzhang/Desktop/github/crawler/output/snow_ski/flickr_snow_ski/flickr_379790347.jpg’ saved [250944/250944]
+
+flickr_379790347.jpg downloaded to: /home/lpzhang/Desktop/github/crawler/output/snow_ski/flickr_snow_ski/flickr_379790347.jpg
+0 minutes and 3 seconds elapsed.
+---------------------
+ 
+...Done

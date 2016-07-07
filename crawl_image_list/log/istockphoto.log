@@ -1,0 +1,33 @@
+Python
+webtype: istockphoto
+image_number: 2
+keywords_file: /home/lpzhang/Desktop/github/crawler/crawl_image_list/keyword/istockphoto.keyword
+outdir: /home/lpzhang/Desktop/github/crawler/output
+args checked
+
+++++++++++++++++++++++++++ START +++++++++++++++++++++++++++++++++
+------ begin crawl 1(2) ------
+keyword: apple
+Need total images: 2
+crawl from website: istockphoto
+output file: /home/lpzhang/Desktop/github/crawler/output/apple/istockphoto_apple.txt
+crawl images infos from istockphoto
+****** current page 1 (265) ******
+truncated image_infos size: 2
+save infos
+------ crawl apple cost 2.76254415512 seconds ------
+
+------ begin crawl 2(2) ------
+keyword: snow ski
+Need total images: 2
+crawl from website: istockphoto
+output file: /home/lpzhang/Desktop/github/crawler/output/snow_ski/istockphoto_snow_ski.txt
+crawl images infos from istockphoto
+****** current page 1 (59) ******
+truncated image_infos size: 2
+save infos
+------ crawl snow ski cost 1.83048701286 seconds ------
+
+save outfilelist: /home/lpzhang/Desktop/github/crawler/crawl_image_list/keyword/istockphoto.download
+------------- total cost 4.59332919121 seconds ----------
+++++++++++++++++++++++++++ DONE +++++++++++++++++++++++++++++++++
