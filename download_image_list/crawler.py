@@ -54,7 +54,7 @@ def entryurl_gettyimages(page_index, keyword):
 def entryurl_flickr(page_index, keyword):
     keyword_form = '%20'.join(keyword.split())
 #     keyword_form = '-'.join(keyword.split())
-    valid_api_key = 'ac22c904b967ae887c969c9ba5a4d7f5'
+    valid_api_key = '19c834991b41104d12bb1bd40b6e8553'
     url_head = 'https://api.flickr.com/services/rest?sort=relevance&parse_tags=1&content_type=7&extras=can_comment%2Ccount_comments%2Ccount_faves%2Cdescription%2Cisfavorite%2Clicense%2Cmedia%2Cneeds_interstitial%2Cowner_name%2Cpath_alias%2Crealname%2Crotation%2Curl_c%2Curl_l%2Curl_m%2Curl_n%2Curl_q%2Curl_s%2Curl_sq%2Curl_t%2Curl_z%2Cis_marketplace_licensable&'
     url_per_page = 'per_page=1000'
     url_page_index = '&page=' + str(page_index)
@@ -83,18 +83,33 @@ def entryurl_istockphoto(page_index, keyword):
 
 def entryurl_dreamstime(page_index, keyword):
     search_keyword = '%20'.join(keyword.split())
-    url_head = 'http://www.dreamstime.com/search.php?srh_field='
-    url_end = '&s_ph=y&s_il=y&s_rf=y&s_ed=y&s_clc=y&s_clm=y&s_orp=y&s_ors=y&s_orl=y&s_orw=y&s_st=new&s_sm=all&s_rsf=0&s_rst=7&s_mrg=1&s_sl0=y&s_sl1=y&s_sl2=y&s_sl3=y&s_sl4=y&s_sl5=y&s_mrc1=y&s_mrc2=y&s_mrc3=y&s_mrc4=y&s_mrc5=y&s_exc=&items=1000&pg='
+    url_head = 'https://www.dreamstime.com/search.php?srh_field='
+    url_end = '&s_ph=y&s_st=new&s_sm=all&s_rsf=0&s_rst=7&s_mrg=1&s_sl0=y&s_sl1=y&s_sl2=y&s_sl3=y&s_sl4=y&s_sl5=y&s_clc=y&s_clm=y&s_orp=y&s_ors=y&s_orl=y&s_orw=y&s_mrc1=y&s_mrc2=y&s_mrc3=y&s_mrc4=y&s_mrc5=y&s_exc=&items=1000&pg='
+#     url_head = 'http://www.dreamstime.com/search.php?srh_field='
+#     url_end = '&s_ph=y&s_il=y&s_rf=y&s_ed=y&s_clc=y&s_clm=y&s_orp=y&s_ors=y&s_orl=y&s_orw=y&s_st=new&s_sm=all&s_rsf=0&s_rst=7&s_mrg=1&s_sl0=y&s_sl1=y&s_sl2=y&s_sl3=y&s_sl4=y&s_sl5=y&s_mrc1=y&s_mrc2=y&s_mrc3=y&s_mrc4=y&s_mrc5=y&s_exc=&items=1000&pg='
 
     entryurl = url_head + search_keyword + url_end + str(page_index)
+
+    return entryurl
+
+def entryurl_pond5(page_index, keyword):
+    search_keyword = '-'.join(keyword.split())
+    entryurl = 'https://www.pond5.com/photos/' + str(page_index) + '/' + search_keyword + '.html'
 
     return entryurl
 
 def response_contents(url):
     headers = {'user-agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'}
     request = urllib2.Request(url, headers = headers)
-    response = urllib2.urlopen(request)
-    content = response.read()
+    try:
+        response = urllib2.urlopen(request)
+        content = response.read()
+    except urllib2.HTTPError as err:
+        content = ''
+        if err.code == 404:
+            print 'HTTP Error 404: Not Found'
+        else:
+            raise
 
     return content
 
@@ -126,9 +141,10 @@ def extract_infos_flickr(content):
 
     pages_pattern = re.compile(r'"pages":(\d*),')
     url_pattern = re.compile(r',"url_l":"(.*?)\.jpg",')
+    id_pattern = re.compile(r'\/(\d*)_')
     pages_find = re.findall(pages_pattern, str(content))
     url_find = re.findall(url_pattern, str(content))
-    id_pattern = re.compile(r'\/(\d*)_')
+
 
     total_pages = int(pages_find[0]) if len(pages_find) else 0
 
@@ -157,7 +173,9 @@ def extract_infos_istockphoto(content):
     imgnum = imgnum_find[0].split(',')
     imgnum = ''.join(imgnum)
     imgnum = int(imgnum) if len(imgnum) else 0
-    total_pages = (imgnum//1000 + 1) if (imgnum%1000) else (imgnum//1000)
+
+    per_page = 1000
+    total_pages = (imgnum//per_page + 1) if (imgnum%per_page) else (imgnum//per_page)
 
     for imgid in id_find:
         if imgid not in img_id_url_dict:
@@ -181,7 +199,9 @@ def extract_infos_dreamstime(content):
     imgnum = imgnum_find[0].split(',')
     imgnum = ''.join(imgnum)
     imgnum = int(imgnum) if len(imgnum) else 0
-    total_pages = (imgnum//1000 + 1) if (imgnum%1000) else (imgnum//1000)
+
+    per_page = 1000
+    total_pages = (imgnum//per_page + 1) if (imgnum%per_page) else (imgnum//per_page)
 
     for imgid in id_find:
         if imgid not in img_id_url_dict:
@@ -190,8 +210,39 @@ def extract_infos_dreamstime(content):
 
     return total_pages, img_id_url_dict
 
+def extract_infos_pond5(content):
+    img_id_url_dict = dict()
+
+    content1 = BeautifulSoup(content,"lxml").select('.SearchPage-resultsCount.u-alignTop .js-searchResultsNum')
+    content2 = BeautifulSoup(content,"lxml").select('.SearchResultsV3.js-searchResultsList.js-draggableList .SearchResultV3-thumb')
+
+    imgnum_pattern = re.compile(r'>(.*?)</span>')
+    url_pattern = re.compile(r'src="(.*?)m.jpeg"')
+    id_pattern = re.compile(r'net/(.*?)_icon')
+
+    imgnum_find = re.findall(imgnum_pattern, str(content1))
+    url_find = re.findall(url_pattern, str(content2))
+
+    imgnum = imgnum_find[0].split(',')
+    imgnum = ''.join(imgnum)
+    imgnum = int(imgnum) if len(imgnum) else 0
+
+    per_page = 50
+    total_pages = (imgnum//per_page + 1) if (imgnum%per_page) else (imgnum//per_page)
+
+    for eachurl in url_find:
+        id_find = re.findall(id_pattern, eachurl)
+        if len(id_find):
+            imgid = id_find[0]
+            if imgid not in img_id_url_dict:
+                imgurl = eachurl + 'l.jpeg'
+                img_id_url_dict[imgid] = imgurl
+
+    return total_pages, img_id_url_dict
+
 def save_infos(img_id_url_dict, idprefix, fname):
     fid = open(fname, 'w')
+    print type(img_id_url_dict)
 
     for imgid in img_id_url_dict:
         imgurl = img_id_url_dict[imgid]
@@ -206,6 +257,8 @@ def crawler_gettyimages(keyword, image_number):
     while(1):
         entryurl = entryurl_gettyimages(page_index, keyword)
         contents = response_contents(entryurl)
+        if len(contents) == 0:
+            break
         total_pages, img_id_url_dict = extract_infos_gettyimages(contents)
 
         if (total_pages == 0):
@@ -229,9 +282,11 @@ def crawler_flickr(keyword, image_number):
     image_id_url_dict = dict()
     page_index = 1
 
-    while(1):
+    while(page_index < 50):
         entryurl = entryurl_flickr(page_index, keyword)
         contents = response_contents(entryurl)
+        if len(contents) == 0:
+            break
         total_pages, img_id_url_dict = extract_infos_flickr(contents)
 
         if (total_pages == 0):
@@ -258,6 +313,8 @@ def crawler_istockphoto(keyword, image_number):
     while(1):
         entryurl = entryurl_istockphoto(page_index, keyword)
         contents = response_contents(entryurl)
+        if len(contents) == 0:
+            break
         total_pages, img_id_url_dict = extract_infos_istockphoto(contents)
 
         if (total_pages == 0):
@@ -284,6 +341,8 @@ def crawler_dreamstime(keyword, image_number):
     while(page_index <= 10):
         entryurl = entryurl_dreamstime(page_index, keyword)
         contents = response_contents(entryurl)
+        if len(contents) == 0:
+            break
         total_pages, img_id_url_dict = extract_infos_dreamstime(contents)
 
         if (total_pages == 0):
@@ -303,8 +362,36 @@ def crawler_dreamstime(keyword, image_number):
 
     return image_id_url_dict
 
+def crawler_pond5(keyword, image_number):
+    image_id_url_dict = dict()
+    page_index = 1
+
+    while(1):
+        entryurl = entryurl_pond5(page_index, keyword)
+        contents = response_contents(entryurl)
+        if len(contents) == 0:
+            break
+        total_pages, img_id_url_dict = extract_infos_pond5(contents)
+
+        if (total_pages == 0):
+            break
+        print('****** current page %d (%d) ******' % (page_index, total_pages))
+
+        image_id_url_dict.update(img_id_url_dict)
+        if (image_number < len(image_id_url_dict)):
+            break
+
+        page_index += 1
+        if (page_index > total_pages):
+            print('current page %d is last pages' % (page_index))
+            break
+
+        print('%d more images need to crawl' % (image_number - len(image_id_url_dict)))
+
+    return image_id_url_dict
+
 def crawler_wrapper(keyword, image_number, webtype, outdir):
-    assert webtype in ['gettyimages', 'flickr', 'istockphoto', 'dreamstime'], 'webtype undefined'
+    assert webtype in ['gettyimages', 'flickr', 'istockphoto', 'dreamstime', 'pond5'], 'webtype undefined'
     outdir = os.path.normpath(outdir + '/' + '_'.join(keyword.split()))
     _mkdir_p(outdir)
     outfile = outdir + '/' + webtype + '_' + '_'.join(keyword.split()) + '.txt'
@@ -331,6 +418,9 @@ def crawler_wrapper(keyword, image_number, webtype, outdir):
     elif webtype == 'dreamstime':
         print 'crawl images infos from dreamstime'
         image_infos = crawler_dreamstime(keyword, image_number)
+    elif webtype == 'pond5':
+        print 'crawl images infos from dreamstime'
+        image_infos = crawler_pond5(keyword, image_number)
 
     print 'save infos'
     save_infos(image_infos, idprefix, outfile)
@@ -375,9 +465,9 @@ if FLAG_python is True:
         main(args)
 else:
     args = {}
-    args['webtype'] = 'istockphoto'
-    args['keywords_file'] = '/Users/zlp/Desktop/screwdriver.txt'
-    args['image_number'] = 1000
-    args['outdir'] = "/Users/zlp/Desktop/"
+    args['webtype'] = 'pond5'
+    args['keywords_file'] = '/home/lpzhang/Desktop/crawler/crawl_image_list/mytest.txt'
+    args['image_number'] = 10
+    args['outdir'] = "/home/lpzhang/Desktop/"
     # print args
     main(args)
