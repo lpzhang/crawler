@@ -548,11 +548,10 @@ def refine_from_det_train_val(infos, threshold, dtype):
 def refine_from_det_test(infos, threshold, dtype):
     # each infos contains candidate file path, gt file path or gtdir
     candidate_fpath = os.path.normpath(infos[0])
-    out_fprefix = candidate_fpath + '_' + dtype
-    gt_fdir = os.path.normpath(infos[1])
-
     assert os.path.exists(candidate_fpath), 'candidate_fpath not exist'
     assert os.path.isfile(candidate_fpath), 'candidate_fpath is not a file'
+    out_fprefix = candidate_fpath + '_' + dtype
+    gt_fdir = os.path.normpath(infos[1])
     assert os.path.exists(gt_fdir), 'gt_fdir not exist'
     assert os.path.isdir(gt_fdir), 'gt_fdir is not a dir'
 
@@ -569,10 +568,43 @@ def refine_from_det_test(infos, threshold, dtype):
 
     # call the refiner_advance
     refiner_advance(gt_files, candidate_files, out_fprefix, threshold)
-
+    
+def refine_from_others(infos, threshold, dtype):
+    # infos[0] contains candidate file path
+    # infos[1:] contains gt file path or dir
+    # check fpath
+    candidate_fpath = os.path.normpath(infos[0])
+    print 'candidate_fpath:', candidate_fpath
+    assert os.path.exists(candidate_fpath), 'candidate_fpath not exist'
+    assert os.path.isfile(candidate_fpath), 'candidate_fpath is not a file'
+    out_fprefix = candidate_fpath + '_' + dtype
+    for i in range(1, len(infos)):
+        gt_fpath = os.path.normpath(infos[i])
+        print('gt_fpath %d: %s' % (i, gt_fpath))
+        assert os.path.exists(gt_fpath), 'gt_fpath not exist'
+        assert (os.path.isfile(gt_fpath) or os.path.isdir(gt_fpath)), 'gt_fpath must be either file or dir'
+        
+    # get candidate file list
+    stime = time.time()
+    print '*************** get candidate file list *****************'
+    candidate_files = _get_infos_from_textfile(candidate_fpath)
+    # get gt file list
+    print '*************** get gt file list *****************'
+    gt_files = list()
+    for i in range(1, len(infos)):
+        gt_fpath = os.path.normpath(infos[i])
+        if os.path.isfile(gt_fpath):
+            gt_files.extend(_get_infos_from_textfile(gt_fpath))
+        else:
+            gt_files.extend(_get_files_abspath_from_directory(gt_fpath))
+            
+    print("--- get file list cost %s seconds ---" % (time.time() - stime))
+    print ''
+    
+    # call the refiner_advance
+    refiner_advance(gt_files, candidate_files, out_fprefix, threshold)
+    
 def refine_wrapper(infos, threshold, dtype):
-    assert dtype in ['ITSELF', 'TRAIN', 'TEST'], 'dtype undefined'
-
     if dtype == 'ITSELF':
         print 'refine from itself'
         refine_from_itself(infos, threshold, dtype)
@@ -597,14 +629,28 @@ def main(arg):
         fpath = os.path.normpath(args['fpath'])
         threshold = float(args['threshold'])
         print 'Jupyter'
-
+    
+    # check the args
+    if not os.path.isabs(fpath):
+        fpath = os.path.abspath(fpath)
+    print 'dtype:', dtype
+    print 'fpath:', fpath
+    print 'threshold:', threshold
+    assert dtype in ['ITSELF', 'TRAIN', 'TEST'], 'dtype undefined'
+    assert type(threshold) is float, 'image_number must be float'
+    assert (float >= 0.0 and image_number <= 1.0), 'image_number must between 0 and 1'
+    assert os.path.exists(fpath), 'fpath not exist'
+    assert os.path.isfile(fpath), 'fpath is not a file'
+    print 'args checked\n'
+    
+    print '++++++++++++++++++++++++++ START +++++++++++++++++++++++++++++++++'
     infos = _get_infos_from_textfile(fpath)
     for eachinfo in infos:
         eachinfo = eachinfo.split()
         refine_wrapper(eachinfo, threshold, dtype)
 
     print("------------- total cost %s seconds ----------" % (time.time() - start_time))
-    print '++++++++++++++++++++++++++ DONE ++++++++++++++++++++++++++++++++++'
+    print '++++++++++++++++++++++++++ DONE +++++++++++++++++++++++++++++++++'
 
 if FLAG_python is True:
     if __name__ == "__main__":
@@ -617,6 +663,6 @@ if FLAG_python is True:
 else:
     args = {}
     args['dtype'] = 'ITSELF' # TEST, TRAIN
-    args['fpath'] = '/home/lpzhang/Desktop/crawler/refine_images/refiner/refine_itself.txt'
+    args['fpath'] = 'refine_itself.txt'
     args['threshold'] = 0.5
     main(args)
