@@ -1,7 +1,7 @@
 #!/bin/bash
 
 FILE="$1"
-#FILE=../crawl_image_list/keyword/pond5.download
+#FILE=/home/lpzhang/Desktop/crawler/gettyimages/fpath.txt
 EXTENSION=.jpg
 
 USER_AGENT="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36"
@@ -36,9 +36,15 @@ while read fpath; do
 				img_url=${ele[1]}
 				# download images to img_path
 				img_path=${outdir}'/'${img_name}
-				# use wget to download images
-				wget $img_url -O $img_path
-				echo "${img_name} downloaded to: ${img_path}"
+                # if img_path exists, then skip
+                if [ -f "$img_path" ]
+                then
+                    echo "$img_path found."
+                else
+                    # use wget to download images
+                    wget $img_url -O $img_path
+                    echo "${img_name} downloaded to: ${img_path}"
+                fi
 			fi
 		done < $fpath
         #calculate the duration
