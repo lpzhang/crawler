@@ -42,7 +42,8 @@ while read fpath; do
                     echo "$img_path found."
                 else
                     # use wget to download images
-                    wget $img_url -O $img_path
+                    #wget $img_url -O $img_path
+                    wget -t 2 -T 30 $img_url -O $img_path
                     echo "${img_name} downloaded to: ${img_path}"
                 fi
 			fi
